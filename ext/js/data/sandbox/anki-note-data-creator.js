@@ -20,6 +20,7 @@ import {getDisambiguations, getGroupedPronunciations, getPronunciationsOfType, g
 import {distributeFurigana, distributeFuriganaInflected} from '../../language/ja/japanese.js';
 
 /**
+ * Place create handlebar template data.
  * Creates a compatibility representation of the specified data.
  * @param {string} marker The marker that is being used for template rendering.
  * @param {import('anki-templates-internal').CreateDetails} details Information which is used to generate the data.
